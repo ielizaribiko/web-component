@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "lerna": "^6.4.1"
+  },
+  "name": "web-component",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.5"
+  }
+}
