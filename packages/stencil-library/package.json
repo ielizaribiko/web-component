@@ -1,7 +1,8 @@
 {
-  "name": "stencil-library",
+  "name": "@ielizari/stencil-library",
   "version": "0.0.1",
   "description": "Stencil Component Starter",
+  "author": "inaki.elizari@biko2.com",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
   "es2015": "dist/esm/index.mjs",
@@ -36,5 +37,8 @@
     "jest-cli": "^27.5.1",
     "puppeteer": "^19.5.2"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
 }

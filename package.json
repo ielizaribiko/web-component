@@ -1,13 +1,28 @@
 {
+  "name": "@ielizaribiko/web-component",
+  "version": "0.0.2",
+  "description": "Web Component library",
+  "author": "Iñaki Elizari <inaki.elizari@biko2.com>",
   "dependencies": {
     "lerna": "^6.4.1"
   },
-  "name": "web-component",
   "workspaces": [
     "packages/*"
   ],
   "devDependencies": {
     "@types/node": "^18.11.18",
     "typescript": "^4.9.5"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com",
+    "access": "public"
+  },
+  "repository": "https://github.com/ielizaribiko/web-component.git",
+  "engines": {
+    "node": "16.13.0"
+  },
+  "exports": {
+    "./stencil-library": "./stencil-library/src/index.ts",
+    "./vue-library": "./vue-library/src/index.ts"
   }
 }
